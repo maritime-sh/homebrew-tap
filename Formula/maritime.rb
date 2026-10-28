@@ -1,28 +1,28 @@
 # Updated automatically for each release. Manual edits are overwritten.
 class Maritime < Formula
-  desc "maritime"
-  homepage "https://github.com/maritime-sh/cli-v2"
-  version "1.0.3"
+  desc "Maritime command line client: provision, operate, and inspect AI agents on marit"
+  homepage "https://maritime.sh/"
+  version "2.2.2"
 
   on_macos do
     on_arm do
-      url "https://github.com/maritime-sh/homebrew-tap/releases/download/maritime-v1.0.3/maritime-1.0.3-darwin-arm64.tar.gz"
-      sha256 "a2fbe95713682cacd5e957a78d18013b0ccd23d8d62c9ab4f8e3e34b825ea7b5"
+      url "https://github.com/maritime-sh/homebrew-tap/releases/download/maritime-v2.2.2/maritime-2.2.2-darwin-arm64.tar.gz"
+      sha256 "440efece537d2187ffc98472cb228f8238dc9d670c5d52bf28f366fd7107ff69"
     end
     on_intel do
-      url "https://github.com/maritime-sh/homebrew-tap/releases/download/maritime-v1.0.3/maritime-1.0.3-darwin-x64.tar.gz"
-      sha256 "1bd419916c752015ea61576601ef2cc6d868a63869fa3594f34f152ee30eb6b9"
+      url "https://github.com/maritime-sh/homebrew-tap/releases/download/maritime-v2.2.2/maritime-2.2.2-darwin-x64.tar.gz"
+      sha256 "3d37a58eca2207d6e4223b2a5da473d72d18fbbd5bd6e9a6935dc7dfcdf6eee0"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/maritime-sh/homebrew-tap/releases/download/maritime-v1.0.3/maritime-1.0.3-linux-arm64.tar.gz"
-      sha256 "823aaa412b4cc9e28f3b3642c927e8890f55e8ec645cc9f4986415d2d455e7fb"
+      url "https://github.com/maritime-sh/homebrew-tap/releases/download/maritime-v2.2.2/maritime-2.2.2-linux-arm64.tar.gz"
+      sha256 "f3d332108113f7eab80472416207e028a02a9f081d9e9e673a9fb8e65e4354b0"
     end
     on_intel do
-      url "https://github.com/maritime-sh/homebrew-tap/releases/download/maritime-v1.0.3/maritime-1.0.3-linux-x64.tar.gz"
-      sha256 "971e3b0bf46d1b1aaf79d15cee422f8d472823b3fe7d29c1022592e040644ea3"
+      url "https://github.com/maritime-sh/homebrew-tap/releases/download/maritime-v2.2.2/maritime-2.2.2-linux-x64.tar.gz"
+      sha256 "785a154dc36bf158302c7523e06a4d0e515d360c8a44b19680417a90f9db1384"
     end
   end
 
