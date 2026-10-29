@@ -2,27 +2,27 @@
 class Maritime < Formula
   desc "Maritime command line client: provision, operate, and inspect AI agents on marit"
   homepage "https://maritime.sh/"
-  version "2.2.2"
+  version "2.2.3"
 
   on_macos do
     on_arm do
-      url "https://github.com/maritime-sh/homebrew-tap/releases/download/maritime-v2.2.2/maritime-2.2.2-darwin-arm64.tar.gz"
-      sha256 "440efece537d2187ffc98472cb228f8238dc9d670c5d52bf28f366fd7107ff69"
+      url "https://github.com/maritime-sh/homebrew-tap/releases/download/maritime-v2.2.3/maritime-2.2.3-darwin-arm64.tar.gz"
+      sha256 "a32e4af05f91b4d223670cfac9b8549ca613c82f4782cbc5d49bfb9759dd8801"
     end
     on_intel do
-      url "https://github.com/maritime-sh/homebrew-tap/releases/download/maritime-v2.2.2/maritime-2.2.2-darwin-x64.tar.gz"
-      sha256 "3d37a58eca2207d6e4223b2a5da473d72d18fbbd5bd6e9a6935dc7dfcdf6eee0"
+      url "https://github.com/maritime-sh/homebrew-tap/releases/download/maritime-v2.2.3/maritime-2.2.3-darwin-x64.tar.gz"
+      sha256 "92533bda8eafb83ad7f07245c714f273318913dcab1856a30bebf49b26f6f13c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/maritime-sh/homebrew-tap/releases/download/maritime-v2.2.2/maritime-2.2.2-linux-arm64.tar.gz"
-      sha256 "f3d332108113f7eab80472416207e028a02a9f081d9e9e673a9fb8e65e4354b0"
+      url "https://github.com/maritime-sh/homebrew-tap/releases/download/maritime-v2.2.3/maritime-2.2.3-linux-arm64.tar.gz"
+      sha256 "cac73d9d354d39e94fafb3ad7d45fcd1bc4a5c0d93cc29ac6186b0d87e5ae7f6"
     end
     on_intel do
-      url "https://github.com/maritime-sh/homebrew-tap/releases/download/maritime-v2.2.2/maritime-2.2.2-linux-x64.tar.gz"
-      sha256 "785a154dc36bf158302c7523e06a4d0e515d360c8a44b19680417a90f9db1384"
+      url "https://github.com/maritime-sh/homebrew-tap/releases/download/maritime-v2.2.3/maritime-2.2.3-linux-x64.tar.gz"
+      sha256 "d6da170b3e5cb8a44d5ea9525dd7a024b2a7d386c0e6cd64eea1b73a648207ce"
     end
   end
 
